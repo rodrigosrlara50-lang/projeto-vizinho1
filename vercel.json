@@ -1,0 +1,5 @@
+{
+  "buildCommand": "cd .gemini/antigravity-ide/scratch/vieira-veiculos && npm install && npm run build",
+  "outputDirectory": ".gemini/antigravity-ide/scratch/vieira-veiculos/.next",
+  "framework": "nextjs"
+}
