@@ -7,7 +7,7 @@ export default function Experience() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
           <div className="order-2 md:order-1 relative h-[600px] w-full rounded-tr-[4rem] rounded-bl-[4rem] overflow-hidden border border-secondary/20">
             <img
-              src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=1089&auto=format&fit=crop"
+              src="/images/foto-2.jpeg"
               alt="Bolo artesanal na Confeitaria"
               className="object-cover w-full h-full"
             />

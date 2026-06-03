@@ -2,12 +2,12 @@ export default function Hero() {
   return (
     <section className="relative h-[80vh] flex items-center justify-center bg-primary text-surface overflow-hidden">
       <div className="absolute inset-0 z-0">
-        <div className="absolute inset-0 bg-primary/70 mix-blend-multiply z-10"></div>
-        {/* Imagem de fundo com opacidade controlada para foco total na tipografia */}
+        <div className="absolute inset-0 bg-black/40 z-10"></div>
+        {/* Imagem de fundo enviada pelo usuário */}
         <img
-          src="https://images.unsplash.com/photo-1551024506-0cb984243884?q=80&w=2000&auto=format&fit=crop"
+          src="/images/bg-hero.jpeg"
           alt="Camila Martins Confeitaria & Bistrô"
-          className="w-full h-full object-cover grayscale opacity-60"
+          className="w-full h-full object-cover"
         />
       </div>
       
