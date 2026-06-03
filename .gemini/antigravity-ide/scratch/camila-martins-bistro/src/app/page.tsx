@@ -1,3 +1,4 @@
+import Header from '@/components/Header';
 import Hero from '@/components/Hero';
 import Experience from '@/components/Experience';
 import Reviews from '@/components/Reviews';
@@ -8,7 +9,8 @@ import FloatingButton from '@/components/FloatingButton';
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen relative">
+      <Header />
       <Hero />
       <Experience />
       <Reviews />
