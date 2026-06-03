@@ -31,7 +31,7 @@ export default function Reviews() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           {reviews.map((review, idx) => (
-            <div key={idx} className="bg-slate p-10 rounded-2xl flex flex-col justify-between hover:-translate-y-1 transition-transform duration-300">
+            <div key={idx} className="bg-boutique-slate p-10 rounded-2xl flex flex-col justify-between hover:-translate-y-1 transition-transform duration-300">
               <div>
                 <div className="flex text-secondary mb-6">
                   {[...Array(review.rating)].map((_, i) => (

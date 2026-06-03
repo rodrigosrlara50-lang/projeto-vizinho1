@@ -27,8 +27,8 @@ export default function Menu() {
                   onClick={() => setActiveTab(category.category)}
                   className={`whitespace-nowrap text-left px-6 py-4 rounded-xl transition-all duration-300 font-sans font-medium text-sm tracking-wide ${
                     activeTab === category.category
-                      ? 'bg-slate text-surface'
-                      : 'bg-transparent text-primary/70 hover:bg-slate/10'
+                      ? 'bg-boutique-slate text-surface'
+                      : 'bg-transparent text-primary/70 hover:bg-boutique-slate/10'
                   }`}
                 >
                   {category.category}

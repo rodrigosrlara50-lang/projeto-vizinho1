@@ -49,7 +49,7 @@ export default function Footer() {
               </li>
               <li className="flex justify-between border-b border-surface/10 pb-3">
                 <span>Dom. e Feriados</span>
-                <span className="text-slate">Fechado</span>
+                <span className="text-boutique-slate">Fechado</span>
               </li>
             </ul>
           </div>

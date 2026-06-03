@@ -22,7 +22,7 @@ export default function Hero() {
           Descubra uma experiência gastronômica única, onde cada detalhe é preparado com amor, desde nossos doces artesanais aos pratos inesquecíveis.
         </p>
         <div className="flex flex-col sm:flex-row gap-6">
-          <a href="#menu" className="bg-slate hover:bg-slate/90 text-surface font-sans text-sm tracking-widest uppercase px-10 py-4 rounded-full transition-all duration-300">
+          <a href="#menu" className="bg-boutique-slate hover:bg-boutique-slate/90 text-surface font-sans text-sm tracking-widest uppercase px-10 py-4 rounded-full transition-all duration-300">
             Ver Cardápio
           </a>
           <a href="#contact" className="bg-transparent border border-secondary/50 hover:border-secondary text-secondary hover:bg-secondary/10 font-sans text-sm tracking-widest uppercase px-10 py-4 rounded-full transition-all duration-300">
