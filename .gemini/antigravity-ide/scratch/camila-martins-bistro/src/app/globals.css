@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: var(--font-inter);
+  --font-serif: var(--font-playfair);
+  
+  --color-primary: #0B1B3D;
+  --color-secondary: #CBA153;
+  --color-slate: #848B9F;
+  --color-background: #FDFBF7;
+  --color-surface: #FFFFFF;
+}
+
+@layer utilities {
+  .border-gold-thin {
+    @apply border-b border-[#CBA153]/30;
+  }
+}
